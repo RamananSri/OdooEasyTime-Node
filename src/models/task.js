@@ -11,7 +11,8 @@ var tasks = [
 		startDate: moment().format("l"),
 		endDate: moment()
 			.add(3, "days")
-			.format("l")
+			.format("l"),
+		timeElapsed: "0"
 	},
 	{
 		taskID: 1,
@@ -23,7 +24,8 @@ var tasks = [
 		startDate: moment().format("l"),
 		endDate: moment()
 			.add(3, "days")
-			.format("l")
+			.format("l"),
+		timeElapsed: "0"
 	},
 	{
 		taskID: 2,
@@ -35,7 +37,8 @@ var tasks = [
 		startDate: moment().format("l"),
 		endDate: moment()
 			.add(3, "days")
-			.format("l")
+			.format("l"),
+		timeElapsed: "0"
 	}
 ];
 
